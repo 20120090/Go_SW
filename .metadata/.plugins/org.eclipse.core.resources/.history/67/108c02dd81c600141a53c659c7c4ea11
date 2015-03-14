@@ -1,0 +1,40 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<title>   Facebook_Page  </title>
+</head>
+
+
+
+
+<body 	> 
+
+<p> User_Home_page............................. </p><hr/>
+<p> Welcome b2a ya ${it.name} </p>
+<p> This is should be user_home_page </p>
+
+
+
+//////////////////////////////////////////////////////////////////////
+
+
+<form action="/social/search" method="post">
+
+name :<input type="text"   name="name"    value="">
+<input type="submit"       name=" click Search"  >
+</form> </br>
+////////////////////////////////////////////////////////////////
+<form action="login"  method="psot">
+<input name="signout"  type="submit"  vlaue="sign out "/> 
+</form>
+/////////////////////////////////////////////
+<form action="friendrequest"  method="psot">
+<input type="hidden "  name="name" />
+<input name="signout"  value="friendrequest" >  
+</form>
+
+
+</body>
+</html>

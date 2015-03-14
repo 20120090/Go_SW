@@ -1,0 +1,20 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Welcome!</title>
+</head>
+<body>
+    <ul>
+  <form action="/social/response" method="post">
+ <li> Name : <input type="text" name="uname" /> <br></li>
+ <li> Email : <input type="text" name="email" /> <br></li>
+<li>  Password : <input type="password" name="password" /> <br></li>
+  <input type="submit" value="Register">
+  
+  </form>
+   <ul>
+  
+</body>
+</html>
